@@ -662,6 +662,8 @@ h6 {
 .footer .credits {
   margin-top: 5px;
   font-size: 13px;
+  margin-left: 0px;
+  text-align: left;
 }
 
 .footer .social-links a {
