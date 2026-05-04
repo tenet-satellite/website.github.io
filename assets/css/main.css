@@ -1700,3 +1700,75 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+
+.program-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-left: 3px solid #3f51b5;
+  background: #f8f9fa;
+}
+
+.program-item .time {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.program-item.highlight {
+  background: #e9f0ff;
+  border-left-color: #1e88e5;
+}
+.dropdown-card {
+  margin-top: 10px;
+}
+
+.dropdown-card summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 12px;
+  background: #3f51b5;
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.dropdown-card summary::marker {
+  display: none;
+}
+
+.dropdown-card summary::after {
+  content: " +";
+  float: right;
+}
+
+.dropdown-card[open] summary::after {
+  content: " −";
+}
+
+.dropdown-card .content {
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 0 0 6px 6px;
+}
+.dropdown-session summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px 10px;
+  background: #f8f9fa;
+  border-radius: 5px;
+}
+
+.dropdown-session summary:hover {
+  background: #e0e7ff;
+}
+
+.dropdown-session .icon {
+  transition: transform 0.2s ease;
+}
+
+.dropdown-session[open] .icon {
+  transform: rotate(180deg);
+}
